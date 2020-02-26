@@ -18,6 +18,19 @@ class Game extends Component {
             playerTwo: this.signs[Math.floor(Math.random() * 3)],
         })
     }
+
+    /* decideWinner = () => {
+        const playerOne = this.state.playerOne;
+        const playerTwo = this.state.playerTwo;
+
+        if(playerOne === playerTwo) {
+            return "It's a tie!" 
+
+        } else if {
+            ((playerOne === 'rock' && playerTwo === 'scissors') ||(playerTwo ===))
+        }
+        )
+    }*/
     
     // Decide the winner and display the message where 'Place the winner here' is currently display on top of the button.
 
