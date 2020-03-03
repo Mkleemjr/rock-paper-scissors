@@ -13,7 +13,6 @@ body {
 }
 
 .playerCard {
-
   width: 250px;
   height: 250px;
   margin: 10px;
@@ -21,6 +20,8 @@ body {
   text-align: center;
   line-height: 250px;
   display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .playerCard:nth-child(2) {
